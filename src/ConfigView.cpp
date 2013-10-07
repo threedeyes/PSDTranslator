@@ -61,7 +61,7 @@ ConfigView::ConfigView(TranslatorSettings *settings)
 	AddChild(stringView);
 
 	stringView = new BStringView("my_copyright",
-		B_UTF8_COPYRIGHT "2012 Gerasim Troeglazov <3dEyes@gmail.com>.");
+		B_UTF8_COPYRIGHT "2012-2013 Gerasim Troeglazov <3dEyes@gmail.com>");
 	stringView->SetExplicitAlignment(leftAlignment);
 	AddChild(stringView);
 
